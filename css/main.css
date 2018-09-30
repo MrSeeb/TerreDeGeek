@@ -124,22 +124,28 @@ textarea {
     margin-right: auto;
 }
 
-
+h1{
+    margin: 0;
+}
 article {
     width: 40%;
     display: block;
     border: 1px black solid;
+    margin: 10px auto;
+}
+article ul{
+    padding: 0;
+    margin: 0;
 }
 ul {
-    margin-left:0;
-    padding-left:0;
+
     list-style-type: none;
 }
 .description{
     margin-left: 180px;
 }
 
-.detail{    
+.detail{ 
     width: 80%;
     border: white 1px solid;
     margin: 0;
@@ -153,22 +159,22 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
-.detail ul{
-    display: block;
+
+.pages a {
+    text-decoration: none;
+    color: white;
 }
 /*
 ~~~~~~~~ End Common Rules ~~~~~~~~~
 */
-
-
 
 /*
 ~~~~~~~~ Start Header rules ~~~~~~~~~
 */
 
 header {
-    background-color: aqua;
-    height: 45vh;
+    background-color: #235789;
+    height: 35vh;
     display:flex;
     align-items: center;
     text-align: center;
@@ -176,8 +182,7 @@ header {
 
 .titre {
     width: 100%;
-    text-align: center; 
-    align-items: center;
+    color: white;
 }
 
 
@@ -193,16 +198,15 @@ video {
 */
 
 main {
-    background-color: blue;
+    background-color: #23395b;
     display: flex;
-    color:white;
+    color: white;
 }
 aside {
-    background-color: red;
+    background-color: #0d1321;
     width: 20%;
     height: 104vh;
     display:flex;
-    text-align: left;
 }
 
 /*
@@ -395,3 +399,4 @@ aside {
         page-break-after: avoid;
     }
 }
+
